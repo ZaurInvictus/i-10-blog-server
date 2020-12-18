@@ -1,5 +1,5 @@
 const router = require('express').Router()
-const Posts = require('../modelsposts-models')
+const Posts = require('../models/post-models')
 const Users = require('../models/user-models')
 const auth = require('../middleware/protected.js')
 const checkRole = require('../middleware/checkRole.js')
